@@ -1,0 +1,21 @@
+1.- Configuración previa
+
+Para poder exportar archivos .txt ahi que modificar la configuración de:
+
+/etc/mysql/mysql.conf.d/mysqld.cnf
+
+Una vez dentro de mysqld.cnf al final del todo añadimos una línea:
+
+secure-file-priv = ""
+
+Guardamos  y reiniciamos el servidor.
+
+2.- Configuración previa
+
+Exportar la base de datos adjuntada como tickets.sql
+
+
+3.- Recomendación
+
+Es MUY recomendable que está pagina este alojada en un servidor linux, si no muchas de las 
+funciones no funcionaran correctamente.
